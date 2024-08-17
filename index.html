@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess the Capital!</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="quiz-container">
+        <h1>Guess the Capital!</h1>
+        <div id="flag-display">🏳️</div>
+        <div id="options-container"></div>
+        <div id="selection-container" class="button-container">
+            <button class="option-button" onclick="startGame(25)">25 Capitals</button>
+            <button class="option-button" onclick="startGame(50)">50 Capitals</button>
+            <button class="option-button" onclick="startGame(100)">100 Capitals</button>
+            <button class="option-button" onclick="startGame('all')">All Capitals</button>
+        </div>
+        <div class="button-container" id="game-buttons" style="display:none;">
+            <button id="difficulty-button" class="option-button easy">Easy</button>
+        </div>
+        <div class="counters">
+            <div class="counter" id="correct-counter">
+                <p>Correct: <span>0</span></p>
+            </div>
+            <div class="counter" id="incorrect-counter">
+                <p>Incorrect: <span>0</span></p>
+            </div>
+            <div class="counter" id="streak-counter">
+                <p>Streak: <span>0</span></p>
+            </div>
+            <div class="counter" id="flags-remaining">
+                <p>Capitals Remaining: <span>0</span></p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>Uranio Empobrecido 2024</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,168 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #E0F7FA; /* Fondo de la página */
+}
+
+.quiz-container {
+    text-align: center;
+    background: white;
+    padding: 40px 20px;
+    border-radius: 8px; /* Esquinas redondeadas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    margin-top: 20px; /* Espacio hasta arriba */
+}
+
+h1 {
+    font-size: 30px; /* Tamaño del título */
+    color: #333; /* Color del título */
+    margin-bottom: 20px;
+}
+
+#flag-display {
+    font-size: 150px; /* Aumenta el tamaño del emoji */
+    margin-bottom: 20px;
+}
+
+#options-container {
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    padding: 10px;
+    margin: 5px 0;
+    border: none;
+    background-color: #80DEEA; /* Color de los botones */
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+    font-family: 'Roboto', sans-serif; /* Asegura que la tipografía sea la misma */
+    font-size: 16px; /* Asegura que el tamaño de la fuente sea el mismo */
+    font-weight: normal; /* Asegura que la fuente no esté en negrita */
+}
+
+/* Estilos existentes */
+.option-button {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    font-size: 16px;
+    background-color: #4DD0E1;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+}
+
+.option-button:hover {
+    background-color: #3CB9CC;
+}
+
+button:hover {
+    background-color: #4DD0E1; /* Color de los botones al pasar el mouse */
+}
+
+button.correct {
+    background-color: #4CAF50 !important; /* Verde suave para correcto */
+}
+
+button.incorrect {
+    background-color: #F44336 !important; /* Rojo suave para incorrecto */
+}
+
+button.show-correct {
+    background-color: #4CAF50 !important; /* Verde suave para mostrar la correcta */
+}
+
+#difficulty-button {
+    width: 100%; /* Mismo tamaño que las opciones */
+    font-size: 16px; /* Asegura que el tamaño de la fuente sea el mismo */
+    margin-top: 10px;
+}
+
+#difficulty-button.easy {
+    background-color: #4CAF50; /* Verde para fácil */
+}
+
+#difficulty-button.medium {
+    background-color: #2196F3; /* Azul para media */
+}
+
+#difficulty-button.hard {
+    background-color: #F44336; /* Rojo para difícil */
+}
+
+.counters {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.counter {
+    background-color: #4DD0E1; /* Color actualizado */
+    padding: 8px; /* Padding más delgado */
+    border-radius: 4px;
+    font-family: 'Roboto', sans-serif; /* Asegura que la tipografía sea la misma */
+    font-size: 12px; /* Tamaño de la fuente más pequeño */
+    font-weight: normal; /* Asegura que la fuente no esté en negrita */
+    width: 28%; /* Hacemos los rectángulos más estrechos */
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    color: white; /* Tipografía en blanco */
+    margin: 0 5px; /* Añadimos margen para que no se toquen */
+}
+
+#correct-counter {
+    background-color: #4CAF50; /* Verde para correcto */
+}
+
+#incorrect-counter {
+    background-color: #F44336; /* Rojo para incorrecto */
+}
+
+#streak-counter {
+    background-color: #FFEB3B; /* Amarillo para racha */
+    color: black; /* Cambiar el color del texto a negro para mejor legibilidad */
+}
+
+.counter p {
+    margin: 5px 0;
+    font-weight: normal; /* Asegura que la fuente no esté en negrita */
+}
+
+footer {
+    margin-top: 20px;
+    text-align: center;
+}
+
+footer p {
+    font-size: 10px; /* Tamaño de la fuente del pie de página */
+    color: #555; /* Color de la fuente del pie de página */
+}
+
+/* Asegurar que los botones de selección de banderas tengan el mismo estilo */
+#selection-container button {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    font-size: 16px;
+    background-color: #4DD0E1;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+}
+
+#selection-container button:hover {
+    background-color: #3CB9CC;
+}
