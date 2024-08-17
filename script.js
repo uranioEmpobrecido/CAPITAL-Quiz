@@ -210,25 +210,11 @@ const countries = [
         region: 'Africa'
     },
     {
-        name: 'Bouvet Island',
-        flag: '🇧🇻',
-        capital: 'No Capital',
-        cities: ['No Major Cities'],
-        region: 'Antarctica'
-    },
-    {
         name: 'Brazil',
         flag: '🇧🇷',
         capital: 'Brasília',
         cities: ['São Paulo', 'Rio de Janeiro', 'Salvador'],
         region: 'South America'
-    },
-    {
-        name: 'British Indian Ocean Territory',
-        flag: '🇮🇴',
-        capital: 'Diego Garcia',
-        cities: ['No Major Cities'],
-        region: 'Asia'
     },
     {
         name: 'Brunei',
@@ -287,24 +273,10 @@ const countries = [
         region: 'North America'
     },
     {
-        name: 'Canary Islands',
-        flag: '🇮🇨',
-        capital: 'Las Palmas',
-        cities: ['Santa Cruz de Tenerife', 'La Laguna', 'Telde'],
-        region: 'Europe'
-    },
-    {
         name: 'Cayman Islands',
         flag: '🇰🇾',
         capital: 'George Town',
         cities: ['West Bay', 'Bodden Town', 'East End'],
-        region: 'North America'
-    },
-    {
-        name: 'Caribbean Netherlands',
-        flag: '🇧🇶',
-        capital: 'Kralendijk',
-        cities: ['Oranjestad', 'The Bottom'],
         region: 'North America'
     },
     {
@@ -333,20 +305,6 @@ const countries = [
         flag: '🇨🇳',
         capital: 'Beijing',
         cities: ['Shanghai', 'Guangzhou', 'Shenzhen'],
-        region: 'Asia'
-    },
-    {
-        name: 'Christmas Island',
-        flag: '🇨🇽',
-        capital: 'Flying Fish Cove',
-        cities: ['Silver City', 'Poon Saan', 'Drumsite'],
-        region: 'Asia'
-    },
-    {
-        name: 'Cocos (Keeling) Islands',
-        flag: '🇨🇨',
-        capital: 'West Island',
-        cities: ['Bantam Village'],
         region: 'Asia'
     },
     {
@@ -399,13 +357,6 @@ const countries = [
         region: 'Africa'
     },
     {
-        name: 'Clipperton Island',
-        flag: '🇨🇵',
-        capital: 'No Capital',
-        cities: ['No Major Cities'],
-        region: 'North America'
-    },
-    {
         name: 'Croatia',
         flag: '🇭🇷',
         capital: 'Zagreb',
@@ -446,13 +397,6 @@ const countries = [
         capital: 'Copenhagen',
         cities: ['Aarhus', 'Odense', 'Aalborg'],
         region: 'Europe'
-    },
-    {
-        name: 'Diego Garcia',
-        flag: '🇩🇬',
-        capital: 'No Capital',
-        cities: ['No Major Cities'],
-        region: 'Asia'
     },
     {
         name: 'Djibouti',
@@ -532,27 +476,6 @@ const countries = [
         region: 'Africa'
     },
     {
-        name: 'European Union',
-        flag: '🇪🇺',
-        capital: 'Brussels',
-        cities: ['Luxembourg', 'Strasbourg', 'Frankfurt'],
-        region: 'Europe'
-    },
-    {
-        name: 'Falkland Islands',
-        flag: '🇫🇰',
-        capital: 'Stanley',
-        cities: ['Goose Green'],
-        region: 'South America'
-    },
-    {
-        name: 'Faroe Islands',
-        flag: '🇫🇴',
-        capital: 'Tórshavn',
-        cities: ['Klaksvík', 'Hoyvík', 'Argir'],
-        region: 'Europe'
-    },
-    {
         name: 'Fiji',
         flag: '🇫🇯',
         capital: 'Suva',
@@ -613,13 +536,6 @@ const countries = [
         flag: '🇩🇪',
         capital: 'Berlin',
         cities: ['Hamburg', 'Munich', 'Frankfurt'],
-        region: 'Europe'
-    },
-    {
-        name: 'Gibraltar',
-        flag: '🇬🇮',
-        capital: 'Gibraltar',
-        cities: ['No Major Cities'],
         region: 'Europe'
     },
     {
@@ -705,13 +621,6 @@ const countries = [
         capital: 'Port-au-Prince',
         cities: ['Cap-Haïtien', 'Les Cayes', 'Gonaïves'],
         region: 'North America'
-    },
-    {
-        name: 'Heard & McDonald Islands',
-        flag: '🇭🇲',
-        capital: 'No Capital',
-        cities: ['No Major Cities'],
-        region: 'Antarctica'
     },
     {
         name: 'Honduras',
@@ -1036,13 +945,6 @@ const countries = [
         region: 'Europe'
     },
     {
-        name: 'Montserrat',
-        flag: '🇲🇸',
-        capital: 'Plymouth (de jure), Brades (de facto)',
-        cities: ['Salem', 'Saint Peter´s'],
-        region: 'North America'
-    },
-    {
         name: 'Morocco',
         flag: '🇲🇦',
         capital: 'Rabat',
@@ -1073,7 +975,7 @@ const countries = [
     {
         name: 'Nauru',
         flag: '🇳🇷',
-        capital: 'Yaren (de facto)',
+        capital: 'Yaren',
         cities: ['Boe', 'Aiwo', 'Anabar'],
         region: 'Oceania'
     },
@@ -1155,13 +1057,6 @@ const countries = [
         region: 'Europe'
     },
     {
-        name: 'Norfolk Island',
-        flag: '🇳🇫',
-        capital: 'Kingston',
-        cities: ['Burnt Pine'],
-        region: 'Oceania'
-    },
-    {
         name: 'Norway',
         flag: '🇳🇴',
         capital: 'Oslo',
@@ -1230,13 +1125,6 @@ const countries = [
         capital: 'Manila',
         cities: ['Quezon City', 'Davao City', 'Cebu City'],
         region: 'Asia'
-    },
-    {
-        name: 'Pitcairn Islands',
-        flag: '🇵🇳',
-        capital: 'Adamstown',
-        cities: ['No Major Cities'],
-        region: 'Oceania'
     },
     {
         name: 'Poland',
@@ -1381,7 +1269,7 @@ const countries = [
     {
         name: 'South Africa',
         flag: '🇿🇦',
-        capital: 'Pretoria (executive), Bloemfontein (judicial), Cape Town (legislative)',
+        capital: 'Pretoria',
         cities: ['Johannesburg', 'Durban', 'Soweto'],
         region: 'Africa'
     },
@@ -1426,13 +1314,6 @@ const countries = [
         capital: 'Jamestown',
         cities: ['Georgetown', 'Edinburgh of the Seven Seas'],
         region: 'Africa'
-    },
-    {
-        name: 'St. Pierre & Miquelon',
-        flag: '🇵🇲',
-        capital: 'Saint-Pierre',
-        cities: ['Miquelon-Langlade'],
-        region: 'North America'
     },
     {
         name: 'Sudan',
@@ -1629,13 +1510,6 @@ const countries = [
         capital: 'Hanoi',
         cities: ['Ho Chi Minh City', 'Da Nang', 'Hai Phong'],
         region: 'Asia'
-    },
-    {
-        name: 'Western Sahara',
-        flag: '🇪🇭',
-        capital: 'Laayoune',
-        cities: ['Dakhla', 'Smara'],
-        region: 'Africa'
     },
     {
         name: 'Yemen',
